@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main(){
+  int bil[5];
+  int i, hasil=0;
+  for (i=0;i<5;i++){
+  cout<<"input nilai ke-"<<(i+1)<<"=";
+  cin>>bil[i];
+  }
+  for (i=0;i<5;i++){
+  hasil+=bil[i];
+  cout<<"hasil ke-"<<i<<"adalah:"<<hasil<<endl;
+  }
+  cout<<endl<<"jumlah keseluruhan : "<< hasil <<endl;
+  return 0;
+}
